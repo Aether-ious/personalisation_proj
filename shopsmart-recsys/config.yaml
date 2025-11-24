@@ -1,0 +1,16 @@
+data:
+  train_path: "data/raw/interactions_train.csv"
+  test_path: "data/raw/interactions_test.csv"
+  batch_size: 256
+
+model:
+  num_users: 10000 
+  num_items: 5000
+  embedding_dim: 64
+  hidden_dim: 32
+  dropout: 0.2
+
+training:
+  epochs: 5
+  learning_rate: 0.001
+  save_dir: "models/"

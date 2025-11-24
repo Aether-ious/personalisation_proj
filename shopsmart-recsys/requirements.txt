@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+torch
+pandas
+numpy
+faiss-cpu
+pyyaml
+pydantic
